@@ -29,7 +29,7 @@ stomp/psm_arm:
         marker_namespace: noisy
     update_filters:
       - class: stomp_moveit/PolynomialSmoother
-        poly_order: 5
+        poly_order: 4
       - class: stomp_moveit/TrajectoryVisualization
         line_width: 0.05
         rgb: [0, 191, 255]

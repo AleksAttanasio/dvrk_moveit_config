@@ -238,10 +238,7 @@ Visualization Manager:
       Marker Topic: /rviz_visual_tools
       Name: MarkerArray
       Namespaces:
-        Text: true
-        goal_1: true
-        goal_2: true
-        goal_3: true
+        {}
       Queue Size: 100
       Value: true
     - Class: rviz/Marker
@@ -326,7 +323,7 @@ Visualization Manager:
       Length: 0.20000000298023224
       Name: Axes
       Radius: 0.009999999776482582
-      Reference Frame: world
+      Reference Frame: psm_tool_tip_link
       Value: true
     - Class: moveit_rviz_plugin/Trajectory
       Color Enabled: false
@@ -432,10 +429,10 @@ Visualization Manager:
       Invert Z Axis: false
       Name: Current View
       Near Clip Distance: 0.009999999776482582
-      Pitch: 0.6647971868515015
+      Pitch: 0.5897973775863647
       Target Frame: world
       Value: XYOrbit (rviz)
-      Yaw: 5.694961071014404
+      Yaw: 1.5767749547958374
     Saved: ~
 Window Geometry:
   Displays:
